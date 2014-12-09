@@ -18,6 +18,7 @@ library("analogsea")
 #'   the image must have git and R installed. The default is good 
 #    for most uses.
 #' @return the string for a command to `docklet_run`
+
 task <- function(REPO, PATH, SCRIPT, USER = Sys.getenv("USER"), 
                  GH_TOKEN = Sys.getenv("GH_TOKEN"), 
                  EMAIL = paste0(USER, "@", USER, ".com"),
